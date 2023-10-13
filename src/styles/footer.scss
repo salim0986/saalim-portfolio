@@ -1,0 +1,46 @@
+footer {
+  min-height: 50vh;
+  background-color: $color6;
+  display: flex;
+  padding: 0 3rem;
+  align-items: center;
+  justify-content: space-between;
+  color: $color1;
+  h3 {
+    font-size: 2rem;
+    font-family: $text3;
+    font-weight: 600;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .admin {
+    width: 60%;
+    border-left: 1px solid $color1;
+    border-right: 1px solid $color1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    font-style: italic;
+    img {
+      object-fit: cover;
+      width: 10rem;
+      border-radius: 50%;
+    }
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    a {
+      font-size: 2rem;
+    }
+  }
+  > a {
+    font-size: 4rem;
+    color: $color1;
+  }
+}

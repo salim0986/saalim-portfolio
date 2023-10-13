@@ -1,0 +1,113 @@
+nav {
+  display: flex;
+  padding: 1rem $p_base;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 5;
+  top: 0;
+  font-family: $text1;
+  background-color: $color1;
+
+  h3 {
+    font-size: 2.4rem;
+  }
+  a {
+    text-decoration: none;
+    color: $color6;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: $color3;
+    }
+
+    button {
+      border: 1px solid $color6;
+      background-color: transparent;
+      transition: all 0.3s ease-in-out;
+      padding: 0.4rem $p_sm;
+      cursor: pointer;
+      &:hover {
+        background-color: $color6;
+        color: $color1;
+      }
+    }
+  }
+  .smallHeader {
+    display: none;
+  }
+  .menuBtn {
+    z-index: 10;
+    color: $color6;
+    cursor: pointer;
+    &:hover {
+      color: $color3;
+    }
+  }
+  .navLinkLeft {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 100;
+    transition: 0.5s all ease-in-out;
+    padding: 0 1rem;
+  }
+}
+.smallNav {
+  display: none;
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  transition: 0.3s all ease-in-out;
+  height: 100vh;
+  width: 100vw;
+  background-color: $color5;
+  padding: $p_base;
+  h3 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: $color3;
+    }
+
+    button {
+      border: none;
+      background-color: transparent;
+      transition: all 0.3s ease-in-out;
+      background-color: #fff;
+      padding: 0.6rem 1.5rem;
+      cursor: pointer;
+      &:hover {
+        background-color: $color6;
+        color: $color1;
+      }
+    }
+  }
+  .navLinkLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 100;
+    transition: 0.5s all ease-in-out;
+    padding: 0 1rem;
+  }
+}
+.active {
+  transform: translateY(0);
+}

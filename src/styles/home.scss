@@ -1,0 +1,124 @@
+#home {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: $p_base;
+  padding-top: 10rem;
+  color: $color6;
+  &::after {
+    content: "";
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.139);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: $p_base;
+  }
+  > section {
+    &:first-of-type {
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+
+      div:first-of-type {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        height: 30vh;
+      }
+      h1 {
+        font-size: 4rem;
+        font-family: $text1;
+      }
+      .typewriter {
+        font-size: 1rem;
+        letter-spacing: 5px;
+      }
+      > .homeBtns {
+        display: flex;
+        gap: 2rem;
+        a {
+          text-decoration: none;
+          font-size: medium;
+          transition: 0.2s all ease-in-out;
+          padding: 1rem 2rem;
+          &:first-of-type {
+            background-color: $color3;
+            color: white;
+            &:hover {
+              background-color: $color3_1;
+            }
+          }
+          &:last-of-type {
+            font-size: larger;
+            color: $color6;
+          }
+        }
+      }
+      aside {
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+      }
+      article {
+        position: relative;
+        width: max-content;
+        &::before {
+          content: "";
+          top: 1rem;
+          left: 1rem;
+          border-radius: 3rem;
+          position: absolute;
+          width: 100%;
+          background-color: #fff;
+          z-index: -1;
+          height: 100%;
+        }
+        p {
+          font-size: 2rem;
+          font-family: "Roboto";
+          font-weight: 900;
+          color: $color5;
+          span {
+            font-size: 2rem;
+            font-family: "Roboto";
+          }
+        }
+        > span {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    &:last-of-type {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      align-self: flex-end;
+      position: relative;
+      &::before {
+        content: "";
+        top: -5%;
+        position: absolute;
+        width: 40vmax;
+        height: 40vmax;
+        z-index: -1;
+        background-color: $color3;
+        border-radius: 50%;
+      }
+      img {
+        width: 40vmax;
+        height: 40vmax;
+      }
+    }
+  }
+  .homeArrow {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    color: $color5;
+    transform: translateX(-50%);
+    animation: homeArrow 0.5s ease-in-out infinite alternate;
+  }
+}
