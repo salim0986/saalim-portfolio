@@ -80,6 +80,9 @@ $desktop: 1080px;
   #home {
     padding: $p_sm;
     padding-bottom: 10rem;
+    &::after {
+      left: $p_sm;
+    }
     > section {
       &:first-of-type {
         gap: 3rem;
@@ -276,6 +279,9 @@ $desktop: 1080px;
     padding-bottom: 10rem;
     flex-direction: column-reverse;
     gap: 3rem;
+    &::after {
+      left: $p_sm;
+    }
     > section {
       &:first-of-type {
         gap: 3rem;
