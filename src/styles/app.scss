@@ -20,7 +20,9 @@
   font-family: $text2;
   scroll-behavior: smooth;
 }
-
+html {
+  overflow-x: hidden;
+}
 body {
   background-color: $color1;
   overflow-x: hidden;
