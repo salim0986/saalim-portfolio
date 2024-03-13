@@ -1,5 +1,8 @@
 import React from "react";
-import { TbBrandJavascript, TbBrandReact, TbBrandRedux } from "react-icons/tb";
+import { TbBrandReact, TbBrandRedux } from "react-icons/tb";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiExpress, SiMongodb } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -54,26 +57,44 @@ const Services = () => {
       </div>
       <section>
         <motion.div {...frames.service1}>
-          <span className="number">2+</span>
+          <span className="number">1+</span>
           <h4>Years Experience</h4>
         </motion.div>
         <motion.div {...frames.service2}>
           <span>
-            <TbBrandJavascript />
+            <BiLogoTypescript />
           </span>
-          <h4>Frontend Web</h4>
+          <h4>TypeScript</h4>
         </motion.div>
         <motion.div {...frames.service3}>
           <span>
             <TbBrandReact />
           </span>
-          <h4>ReactJS</h4>
+          <h4>REACT JS</h4>
         </motion.div>
         <motion.div {...frames.service4}>
           <span>
             <TbBrandRedux />
           </span>
-          <h4>State Management</h4>
+          <h4>REDUX TOOLKIT & QUERY</h4>
+        </motion.div>
+        <motion.div {...frames.service4}>
+          <span>
+            <FaNodeJs />
+          </span>
+          <h4>NODE JS</h4>
+        </motion.div>
+        <motion.div {...frames.service4}>
+          <span>
+            <SiExpress />
+          </span>
+          <h4>EXPRESS JS</h4>
+        </motion.div>
+        <motion.div {...frames.service4}>
+          <span>
+            <SiMongodb />
+          </span>
+          <h4>SQL & NOSQL DATABASE</h4>
         </motion.div>
       </section>
     </section>

@@ -47,7 +47,12 @@ const Home = () => {
           </motion.h1>
           <Typewriter
             options={{
-              strings: ["A Developer", "A Designer", "A Learner"],
+              strings: [
+                "A Full Stack Developer",
+                "A Backend Developer",
+                "A Frontend Developer",
+                "A Learner",
+              ],
               loop: true,
               autoStart: true,
               cursor: "",
@@ -62,30 +67,20 @@ const Home = () => {
             <BsArrowUpRight />
           </a>
         </div>
-        <article>
-          <p>
-            +
-            <motion.span
-              ref={clientRef}
-              whileInView={() => animationCount(100, clientRef)}
-            ></motion.span>
-          </p>
-          <span>Clients Worldwide</span>
-        </article>
         <aside>
           <article>
             <p>
               +
               <motion.span
                 ref={projectRef}
-                whileInView={() => animationCount(50, projectRef)}
+                whileInView={() => animationCount(20, projectRef)}
               ></motion.span>
             </p>
             <span>Projects Done</span>
           </article>
           <article data-special>
             <p>Contact</p>
-            <span>salimansari0986@gmail.com</span>
+            <span>work.saalim@gmail.com</span>
           </article>
         </aside>
         <div></div>

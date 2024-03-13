@@ -4,9 +4,12 @@ const Experience = () => {
   return (
     <section id="experience">
       <section>
-        <div className="oddDiv">
-          <h2>Techy Star</h2>
-          <p>08/09/2023</p>
+        <div
+          className="oddDiv"
+          style={{ "::after": { animationDelay: "300ms" } }}
+        >
+          <h2>TOOTLE</h2>
+          <p>20/04/2022</p>
         </div>
         <div
           className="evenDiv"
@@ -35,6 +38,13 @@ const Experience = () => {
         >
           <h2>PORTFOLIO</h2>
           <p>28/09/2023</p>
+        </div>
+        <div
+          className="evenDiv"
+          style={{ "::after": { animationDelay: "100ms" } }}
+        >
+          <h2>Vocab Boost</h2>
+          <p>20/02/2024</p>
         </div>
       </section>
     </section>

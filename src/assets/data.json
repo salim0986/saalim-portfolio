@@ -1,41 +1,47 @@
 {
   "projects": [
     {
-      "date": "07/10/2022",
-      "title": "TECHY STAR",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-tech-website-six.vercel.app/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+      "date": "20/04/2022",
+      "title": "Tootle",
+      "description": "This is a single page ui built using Bootstrap. All parts are responsive and working here.",
+      "url": "https://salim0986.github.io/bootstrap-tootle/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2019/04/29/16/10/connection-4166469_1280.png"
     },
-
     {
-      "date": "11/10/2022",
+      "date": "11/10/2023",
       "title": "VIDEO HUB",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "description": "This is a video streaming app built using Chakra UI. This website has a dark-mode and catchy user interface.",
       "url": "https://react-chakra-multi-theme.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
     },
     {
-      "date": "15/10/2022",
+      "date": "15/10/2023",
       "title": "XCrypto",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "description": "This is a crypto fetching app built by ReactJS and an external crypto API. One can find current exchanges and crypto prices using this amazing project. I also added a graph to see what is going on with the long term.",
       "url": "https://xcrypto-axios.vercel.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
     },
 
     {
-      "date": "17/10/2022",
+      "date": "17/10/2023",
       "title": "REACT CART",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "description": "This is a simple but fully functional cart ui built by ReactJS. It is a small part of an ecommerce web-app. I have managed different states using Redux Toolkit.",
       "url": "https://react-redux-cart-eight.vercel.app",
       "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
     },
     {
-      "date": "20/10/2022",
+      "date": "20/10/2023",
       "title": "PORTFOLIO",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "description": "This is my personal portfolio and I have made it using ReactJs, Firebase, React motion and Sass. It can be helpful to see what is my current level.",
       "url": "/",
       "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+    },
+    {
+      "date": "20/02/2024",
+      "title": "Vocab Boost",
+      "description": "This is my first typescript project. I have built it using React TS, microsoft translator API and a text-to-speech API.",
+      "url": "/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2017/09/21/13/32/girl-2771936_1280.jpg"
     }
   ]
 }
