@@ -13,34 +13,41 @@ const Experience = () => {
         </div>
         <div
           className="evenDiv"
+          style={{ "::after": { animationDelay: "300ms" } }}
+        >
+          <h2>Keep Notes</h2>
+          <p>22/10/2023</p>
+        </div>
+        <div
+          className="oddDiv"
           style={{ "::after": { animationDelay: "100ms" } }}
         >
           <h2>Video Hub</h2>
           <p>12/09/2023</p>
         </div>
         <div
-          className="oddDiv"
+          className="evenDiv"
           style={{ "::after": { animationDelay: "300ms" } }}
         >
           <h2>XCrypto</h2>
           <p>15/09/2023</p>
         </div>
         <div
-          className="evenDiv"
+          className="oddDiv"
           style={{ "::after": { animationDelay: "500ms" } }}
         >
           <h2>React Cart</h2>
           <p>22/09/2023</p>
         </div>
         <div
-          className="oddDiv"
+          className="evenDiv"
           style={{ "::after": { animationDelay: "700ms" } }}
         >
           <h2>PORTFOLIO</h2>
           <p>28/09/2023</p>
         </div>
         <div
-          className="evenDiv"
+          className="oddDiv"
           style={{ "::after": { animationDelay: "100ms" } }}
         >
           <h2>Vocab Boost</h2>
