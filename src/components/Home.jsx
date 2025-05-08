@@ -2,10 +2,9 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
-import me from "../assets/logo.png";
+import me from "../assets/logo1.png";
 
 const Home = () => {
-  const clientRef = useRef(null);
   const projectRef = useRef(null);
   const frames = {
     h1: {

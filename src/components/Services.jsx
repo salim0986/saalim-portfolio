@@ -1,7 +1,7 @@
 import React from "react";
 import { TbBrandReact, TbBrandRedux } from "react-icons/tb";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiExpress, SiMongodb } from "react-icons/si";
+import { SiMongodb, SiNextdotjs } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -57,7 +57,7 @@ const Services = () => {
       </div>
       <section>
         <motion.div {...frames.service1}>
-          <span className="number">1+</span>
+          <span className="number">3+</span>
           <h4>Years Experience</h4>
         </motion.div>
         <motion.div {...frames.service2}>
@@ -86,9 +86,9 @@ const Services = () => {
         </motion.div>
         <motion.div {...frames.service4}>
           <span>
-            <SiExpress />
+            <SiNextdotjs />
           </span>
-          <h4>EXPRESS JS</h4>
+          <h4>NEXT JS</h4>
         </motion.div>
         <motion.div {...frames.service4}>
           <span>

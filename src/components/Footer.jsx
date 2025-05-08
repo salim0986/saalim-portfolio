@@ -1,10 +1,10 @@
 import React from "react";
-import profile from "../assets/dp2.jpeg";
+import profile from "../assets/file.jpg";
 import {
-  FaYoutube,
   FaInstagram,
   FaGithub,
   FaArrowCircleUp,
+  FaLinkedin,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -17,8 +17,8 @@ const Footer = () => {
       </div>
       <div className="links">
         <h3>Social Links</h3>
-        <a target="blank" href="https://youtube.com">
-          <FaYoutube color="white" />
+        <a target="blank" href="https://www.linkedin.com/in/md-saalim/">
+          <FaLinkedin color="white" />
         </a>
         <a target="blank" href="https://www.instagram.com/_mdsaalim/">
           <FaInstagram color="white" />
