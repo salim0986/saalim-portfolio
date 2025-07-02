@@ -53,6 +53,13 @@ const Experience = () => {
           <h2>Vocab Boost</h2>
           <p>20/02/2024</p>
         </div>
+        <div
+          className="evenDiv"
+          style={{ "::after": { animationDelay: "300ms" } }}
+        >
+          <h2>AnalysticX Dashboard</h2>
+          <p>22/05/2025</p>
+        </div>
       </section>
     </section>
   );

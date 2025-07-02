@@ -12,10 +12,12 @@ const Testimonial = () => {
           <span>
             <GiCharacter />
           </span>
-          <h4>Mohd Saalim</h4>
+          <h4>Aditya Singh(Founder: AnalysticX)</h4>
           <p>
-            I am a fresher and I do not want to showcase fake testimonials. Feel
-            free to be my first client, I will impress you.
+            Throughout the four-month hybrid/remote apprenticeship, Mohd Saalim
+            consistently demonstrated excellent technical skills, creativity,
+            and professionalism while contributing to the development of our
+            healthcare AI platform.
           </p>
         </div>
       </section>
