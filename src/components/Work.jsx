@@ -35,7 +35,7 @@ const CarouselComponent = () => {
         showArrows={false}
         showStatus={false}
         showThumbs={false}
-        showIndicators={false}
+        showIndicators={true}
         interval={2000}
         className="carousel"
       >
