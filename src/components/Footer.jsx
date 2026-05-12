@@ -1,10 +1,11 @@
 import React from "react";
-import profile from "../assets/file.jpg";
+import profile from "../assets/profile.png";
 import {
   FaInstagram,
   FaGithub,
   FaArrowCircleUp,
   FaLinkedin,
+  FaTwitter
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -25,6 +26,9 @@ const Footer = () => {
         </a>
         <a target="blank" href="https://github.com/salim0986">
           <FaGithub color="white" />
+        </a>
+        <a target="blank" href="https://x.com/MohdSaalim_">
+          <FaTwitter color="white" />
         </a>
       </div>
       <a href="#home">

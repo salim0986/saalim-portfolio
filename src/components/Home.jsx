@@ -48,9 +48,9 @@ const Home = () => {
             options={{
               strings: [
                 "A Full Stack Developer",
-                "A Software Architect",
-                "A Data Scientist",
-                "A Constant Learner",
+                "An AI Enthusiast",
+                "A Backend Specialist",
+                "A Tech Builder",
               ],
               loop: true,
               autoStart: true,
@@ -72,7 +72,7 @@ const Home = () => {
               +
               <motion.span
                 ref={projectRef}
-                whileInView={() => animationCount(20, projectRef)}
+                whileInView={() => animationCount(15, projectRef)}
               ></motion.span>
             </p>
             <span>Projects Done</span>
@@ -87,7 +87,6 @@ const Home = () => {
       <section>
         <img src={me} alt="Mohd Saalim" />
       </section>
-      <BsChevronDown size={"4rem"} className="homeArrow" />
     </section>
   );
 };

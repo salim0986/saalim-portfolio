@@ -3,7 +3,7 @@ import Header from "./components/Header.jsx";
 import Home from "./components/Home.jsx";
 import Work from "./components/Work.jsx";
 import Footer from "./components/Footer.jsx";
-import Services from "./components/Services";
+import Stack from "./components/Stack";
 import Testimonial from "./components/Testimonial";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
@@ -15,7 +15,7 @@ function App() {
       <Home />
       <Work />
       <Experience />
-      <Services />
+      <Stack />
       <Testimonial />
       <Contact />
       <Footer />

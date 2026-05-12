@@ -1,9 +1,15 @@
 import React from "react";
-import { TbBrandReact, TbBrandRedux } from "react-icons/tb";
-import { BiLogoTypescript } from "react-icons/bi";
-import { SiMongodb, SiNextdotjs } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { TbBrandReact } from "react-icons/tb";
+import {
+  SiExpress,
+  SiFastapi,
+  SiLanggraph,
+  SiNextdotjs,
+  SiPostgresql,
+} from "react-icons/si";
+import { LuTreePine } from "react-icons/lu"
 import { motion } from "framer-motion";
+
 
 const Services = () => {
   const frames = {
@@ -53,48 +59,48 @@ const Services = () => {
   return (
     <section id="services">
       <div>
-        <h2>Services</h2>
+        <h2>Prime Stack</h2>
       </div>
       <section>
         <motion.div {...frames.service1}>
-          <span className="number">3+</span>
+          <span className="number">2+</span>
           <h4>Years Experience</h4>
         </motion.div>
         <motion.div {...frames.service2}>
           <span>
-            <BiLogoTypescript />
+            <SiNextdotjs />
           </span>
-          <h4>TypeScript</h4>
+          <h4>Next.js</h4>
         </motion.div>
         <motion.div {...frames.service3}>
           <span>
-            <TbBrandReact />
+            <SiExpress />
           </span>
-          <h4>REACT JS</h4>
+          <h4>Express.js</h4>
         </motion.div>
         <motion.div {...frames.service4}>
           <span>
-            <TbBrandRedux />
+            <SiFastapi />
           </span>
-          <h4>REDUX TOOLKIT & QUERY</h4>
+          <h4>FastAPI</h4>
         </motion.div>
         <motion.div {...frames.service4}>
           <span>
-            <FaNodeJs />
+            <SiLanggraph />
           </span>
-          <h4>NODE JS</h4>
+          <h4>LangGraph / LangChain</h4>
         </motion.div>
         <motion.div {...frames.service4}>
           <span>
-            <SiNextdotjs />
+            <LuTreePine />
           </span>
-          <h4>NEXT JS</h4>
+          <h4>Pinecone</h4>
         </motion.div>
         <motion.div {...frames.service4}>
           <span>
-            <SiMongodb />
+            <SiPostgresql />
           </span>
-          <h4>SQL & NOSQL DATABASE</h4>
+          <h4>Postgres</h4>
         </motion.div>
       </section>
     </section>

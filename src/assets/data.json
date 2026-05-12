@@ -1,54 +1,39 @@
 {
   "projects": [
     {
-      "date": "22/10/2023",
-      "title": "Keep Notes",
-      "description": "This is full stack web apps to take care of your personal notes. It is built usig MERN technologies and comes with a strong authentcation system.",
-      "url": "https://keep-notes-ylch.onrender.com",
-      "imgSrc": "https://cdn.pixabay.com/photo/2019/09/20/10/40/write-4491416_1280.jpg"
+      "date": "01/04/2026",
+      "title": "GraphBug",
+      "description": "AI-powered code review platform integrated with GitHub as an app. Leverages Graph RAG technology and Gemini LLM to automatically analyze pull requests, provide intelligent insights, and post code reviews. Built with Next.js 16, PostgreSQL, and supports multi-provider authentication (GitHub OAuth, Google, Magic Links).",
+      "url": "https://graphbug.me",
+      "imgSrc": "/images/graphbug.png"
     },
     {
-      "date": "20/04/2022",
-      "title": "Tootle",
-      "description": "This is a single page ui built using Bootstrap. All parts are responsive and working here.",
-      "url": "https://salim0986.github.io/bootstrap-tootle/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2019/04/29/16/10/connection-4166469_1280.png"
+      "date": "15/02/2026",
+      "title": "PropTrack",
+      "description": "Role-based property management platform for tenant maintenance operations. Features RBAC system for managers, technicians, and tenants with ticket escalation, daily digests, and Telegram notifications. Built with Next.js 15, Tailwind CSS, Drizzle ORM, and Supabase with comprehensive e2e testing.",
+      "url": "https://prop-track-qwego-5uui.vercel.app/",
+      "imgSrc": "/images/proptrack.png"
     },
     {
-      "date": "11/10/2023",
-      "title": "VIDEO HUB",
-      "description": "This is a video streaming app built using Chakra UI. This website has a dark-mode and catchy user interface.",
-      "url": "https://react-chakra-multi-theme.vercel.app/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+      "date": "20/01/2025",
+      "title": "Cognitive Guard",
+      "description": "Gamified code documentation CLI tool that calculates cognitive complexity using AST analysis and enforces documentation for complex functions via git pre-commit hooks. Features interactive TUI, achievement tracking, and support for Python, JavaScript, TypeScript, and more. Prevents commits for undocumented complex code.",
+      "url": "https://github.com/salim0986/cognitive-guard",
+      "imgSrc": "/images/cognitive-guard.png"
     },
     {
-      "date": "15/10/2023",
-      "title": "XCrypto",
-      "description": "This is a crypto fetching app built by ReactJS and an external crypto API. One can find current exchanges and crypto prices using this amazing project. I also added a graph to see what is going on with the long term.",
-      "url": "https://xcrypto-axios.vercel.app/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
-    },
-
-    {
-      "date": "17/10/2023",
-      "title": "REACT CART",
-      "description": "This is a simple but fully functional cart ui built by ReactJS. It is a small part of an ecommerce web-app. I have managed different states using Redux Toolkit.",
-      "url": "https://react-redux-cart-eight.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+      "date": "15/10/2024",
+      "title": "LLM Tasks Solver",
+      "description": "Autonomous agent built with LangGraph and Google Gemini that solves multi-step data science quiz tasks. Orchestrates specialized tools for web scraping, PDF processing, code execution, and API requests. Features dynamic dependency installation, rate limiting, and background task processing with FastAPI.",
+      "url": "https://github.com/salim0986/LLM-Tasks-Solver",
+      "imgSrc": "/images/llm-solver.png"
     },
     {
-      "date": "20/10/2023",
-      "title": "PORTFOLIO",
-      "description": "This is my personal portfolio and I have made it using ReactJs, Firebase, React motion and Sass. It can be helpful to see what is my current level.",
-      "url": "/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
-    },
-    {
-      "date": "20/02/2024",
-      "title": "Vocab Boost",
-      "description": "This is my first typescript project. I have built it using React TS, microsoft translator API and a text-to-speech API.",
-      "url": "/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2017/09/21/13/32/girl-2771936_1280.jpg"
+      "date": "10/10/2025",
+      "title": "HRMS System",
+      "description": "Comprehensive Human Resource Management System designed for enterprise operations. Includes employee management, attendance tracking, payroll processing, and HR workflows. Built with modern full-stack architecture supporting scalability and role-based access control.",
+      "url": "https://github.com/mohd-abex/hrms-abex-frontend",
+      "imgSrc": "/images/hrms.png"
     }
   ]
 }

@@ -116,12 +116,4 @@
       }
     }
   }
-  .homeArrow {
-    position: absolute;
-    bottom: -10%;
-    left: 50%;
-    color: $color5;
-    transform: translateX(-50%);
-    animation: homeArrow 0.5s ease-in-out infinite alternate;
-  }
 }
